@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 16px;
+    background-color: #fff;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*------------buttons ends---------------*/
+
+div.masthead .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+
+/*-----------------------------------------carousel section here---------------------------------------------------*/
+
+.carousel-inner {
+    width: 100%;
+    max-height: 700px;
+}
+
+#carousel-section .carousel img {
+    width: 100%;
+}
+
+.bg-light {
+    background-color: #eaeeff !important;
+}
+
+.d-block1 {
+    height: 50vh;
+}
+
+.carousel-caption>h2 {
+    color: yellow;
+    --animate-duration: 0.5s;
+}
+
+.carousel-text {
+    font-size: 50px;
+    font-weight: 900px;
+    font-family: 'Anton', sans-serif !important;
+}
+
+.carousel-para {
+    font-size: 40px;
+    font-weight: 900px;
+    font-family: 'Lato', sans-serif !important;
+    animation: fadeInLeft;
+    animation-duration: 3s;
+}
+
+
+/*---------------carousel-aboutUs section here---------------------*/
+
+.bg-about {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/carousel13.jpg")no-repeat center center;
+    position: relative;
+    background-size: cover;
+    height: 60vh;
+}
+
+.bg-about1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/carousel14.jpg")no-repeat center center;
+    position: relative;
+    background-size: cover;
+    height: 60vh;
+}
+
+.bg-about2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/slider8.jpg")no-repeat center center;
+    position: relative;
+    background-size: cover;
+    height: 60vh;
+}
+
+.bg-about3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/slider9.jpg")no-repeat center center;
+    position: relative;
+    background-size: cover;
+    height: 60vh;
+}
+
+.bg-about4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/slider8.jpg")no-repeat center center;
+    position: relative;
+    background-size: cover;
+    height: 60vh;
+}
+
+
+/*--------------------------------------home section here--------------------------------------*/
+
+.bg-hero {
+    background-image: url('../images/biogas-model.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.background-image {
+    background: url(../images/hero-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    animation: fadeInRight;
+    animation-duration: 4s;
+}
+
+.card-section {
+    border-radius: 10px;
+}
+
+.hero-text {
+    font-size: 2.5em;
+    font-family: 'Anton', sans-serif !important;
+    Color: green;
+}
+
+
+/*-------------------------------about us section here----------------------------------------*/
+
+.heading-line {
+    height: 3px;
+    width: 8%;
+    background: red;
+    margin-top: -20px;
+    margin-bottom: 1rem;
+}
+
+.heading-line1 {
+    font-weight: 900px;
+    font-family: 'Anton', sans-serif !important;
+}
+
+.text {
+    text-align: center;
+}
+
+.text1 {
+    text-align: center;
+    font-weight: 900px;
+    font-family: 'Anton', sans-serif !important;
+    font-size: 30px;
+}
+
+.img-fluid3 {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    border-radius: 55px;
+    border: 2px solid green;
+}
+
+.vmv {
+    background-image: url('../img/bg-svg.svg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 60%;
+}
+
+.support {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/biogas-vector.jpg")fixed no-repeat center center;
+    position: relative;
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.icon-position {
+    margin-left: 2em;
+    padding-top: .5em;
+}
+
+.promise-position {
+    margin-left: 10em;
+    padding-top: 35px;
+    height: 40%;
+}
+
+
+/*--------------------------------------services section here--------------------------------------*/
+
+.bg-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/biogas-plnt.jpg")fixed no-repeat center center;
+    position: relative;
+    background-size: cover;
+    padding: 8rem 0;
+    height: 70vh;
+}
+
+.service-page {
+    background-color: mediumseagreen;
+}
+
+.text-container {
+    text-align: center;
+    color: oldlace;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 100px;
+}
+
+.img-fluid1 {
+    height: 50vh;
+}
+
+#para {
+    font-size: 1.875em;
+    text-align: center;
+    color: mediumseagreen;
+}
+
+input {
+    background-color: green;
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: oldlace;
+}
+
+.card {
+    font-size: 21px;
+}
+
+#services .card {
+    border-radius: 7px;
+    box-shadow: 0px 4px 4px rgba(9, 44, 76, 0.13);
+    font-weight: 700px;
+    font-family: 'Anton', sans-serif !important;
+}
+
+.service-text {
+    color: green;
+    font-family: 'Anton', sans-serif !important;
+    font-size: 20px !important;
+}
+
+
+/*--------------------------------------materials section here--------------------------------------*/
+
+
+/*--------------------------------------Contact us section here--------------------------------------*/
+
+.contact div.masthead {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60")fixed no-repeat center center;
+    position: relative;
+    background-size: cover;
+    padding: 8rem 0;
+}
+
+
+/*-----------------------------------------footer section here--------------------------------------*/
+
+#footer ul {
+    list-style-type: none;
+    padding: 0 48px 0 0;
+}
+
+
+/*-----------------------------------------footer section ends here--------------------------------------*/
+
+@media screen and (max-width: 576px) {
+    .teams {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .teams {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1025px) {
+    #collapsibleNavId .nav {
+        transform: translateX(150px);
+        -webkit-transform: translateX(150px);
+        -moz-transform: translateX(150px);
+        -ms-transform: translateX(150px);
+        -o-transform: translateX(150px);
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar-brand img {
+        width: 100px;
+    }
+}
