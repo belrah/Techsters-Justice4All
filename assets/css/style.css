@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans=Lora&display=swap");
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Open Sans" sans-serif;
+}
+
+
+/*-----------------------------------------navgigation section here--------------------------------------*/
+
+section {
+    padding: 150px 0;
+}
+
+.nav-link {
+    font-size: 22px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #ffff00;
+}
+
+
+/*-----------------------------------------about section here--------------------------------------*/
+
+
+/*-----------------------------------------header section here--------------------------------------*/
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+marquee {
+    font-size: 20px;
+}
+
+
+/*-----------------------------------------program section here--------------------------------------*/
+
+
+/*-----------------------------------------services section here--------------------------------------*/
+
+.container1 {
+    background-color: #04172A;
+    color: #FFFFFF;
+}
+
+
+/*-----------------------------------------contact section here--------------------------------------*/
+
+.textbox {
+    background-color: #e8faff;
+    padding: 5px 5px;
+    margin-top: 1rem;
+}
+
+
+/*-----------------------------------------footer section here--------------------------------------*/
+
+#footer ul {
+    list-style-type: none;
+    padding: 0 48px 0 0;
+}
+
+#footer ul {
+    list-style-type: none;
+    padding: 0 48px 0 0;
+}
+
+
+/*-----------------------------------------footer section ends here--------------------------------------*/
