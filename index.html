@@ -9,7 +9,8 @@
 
     <!-- google fonts link -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- fontawesome link -->
@@ -21,13 +22,19 @@
 <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #ac2807;">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"> <span class="font-weight-bolder">Justice4All</span>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"> <span class="logo">Justice4All</span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+            <div class="pl-1">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -38,18 +45,18 @@
                     </li>
                     <li class="nav-item">
                         <!-- <a class="nav-link js-scroll-trigger text-white font-weight-bolder" href="#program">Programmes</a> -->
-                        <div class=".">
-                            <a class="btn btn-secondary mt-1 " href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #ac2807; border: 2px solid  #ac2807;"> <span class="text-white font-weight-bolder" style="font-size:20px;">Programmes</span>
+                        <div class="." id="#programs">
+                            <a class="btn btn-secondary mt-1 " href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="program">Programmes</span>
                             </a>
 
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Our Impact</a>
-                                <a class="dropdown-item" href="#">Our Blog</a>
+                                <a class="dropdown-item" href="#impact">Our Impact</a>
+                                <a class="dropdown-item" href="blog.html">Our Blog</a>
                             </div>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger text-white font-weight-bolder" href="#program">Services</a>
+                        <a class="nav-link js-scroll-trigger text-white font-weight-bolder" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger text-white font-weight-bolder" href="#contact">Contact</a>
@@ -58,7 +65,6 @@
                         <div class="dropdown">
                             <a class="btn btn-secondary mt-1 " href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #ac2807; border: 2px solid  #ac2807;"> <span>      <i class="fas fa-user-alt"></i></a></span>
                             </a>
-
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                 <a class="dropdown-item" href="register.html">Volunteer</a>
                                 <a class="dropdown-item" href="Donate.html">Donate</a>
@@ -115,31 +121,29 @@
 
     <nav class="navbar navbar-expand-lg navbar-light pt-3 " style="background-color:#04172a; ">
         <!-- <a class="navbar-brand " href="# ">Navbar</a> -->
-        <marquee behavior=" " direction="left " class="text-white "><span class="font-weight-bolder" style="color: #ac2807;">Justice4All</span> Connect Individuals to volunteer workers(Lawyers and Counselors) and organisations who provide pro-bono, counselling and free legal services to the vulnerable.
+        <marquee behavior=" " direction="left " class="text-white "><span class="font-weight-bolder" style="color: #ac2807; font-size:30px;">Justice4All</span> Connects Individuals to volunteer workers(Lawyers and Counselors) and organisations who provide pro-bono, counselling and free legal services to the vulnerable.
         </marquee>
         <div class="container ">
             <div class="row ">
                 <div class="col-sm-12 col-md-6 col-lg-3 ">
-                    <a href="tel:08102180628 " class="text-white">Click to Call Now</a>
+                    <a href="tel:08102180628 " class="text-white" style="text-decoration:none;">Click to Call Now</a>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 ">
-                    <a href="sms: send a message " class="text-white"> Chat with a Councelor</a>
+                    <a href="sms: send a message " class="text-white" style="text-decoration:none;"> Chat with a Councelor</a>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 ">
-                    <a href="mailto: justice4all@gmail.com" class="text-white">Send Mail: justice4all@gmail.com</a>
+                    <a href="mailto: belrahj3@gmail.com" class="text-white" style="text-decoration:none;">Send Mail: justice4all@gmail.com</a>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 ">
-                    <button href="contact.html " class="btn btn-outline-info my-2 my-sm-0 text-white font-weight-bold " type="submit ">Message Us</button>
+                    <button href="contact.html " id="btn-hover" class="btn btn-outline-info my-2 my-sm-0  font-weight-bold " type="submit ">Message Us</button>
                 </div>
 
             </div>
         </div>
-        <!-- <button href="contact.html " class="btn btn-outline-info my-2 my-sm-0 text-white font-weight-bold " type="submit ">Call Now</button> -->
-
     </nav>
 
     <!-------about section starts here -->
-    <div class="mt-3 mb-3" id="about">
+    <div class="mt-4 mb-4" id="about">
         <h2 class="text-center font-weight-bolder" style="color: #04172A;">ABOUT US</h2>
         <hr class="mb-2 mt-0  mx-auto text-center " style="width: 85px; height: 2px; background-color: #ac2807;">
     </div>
@@ -151,44 +155,43 @@
                 </div>
                 <!-- /.col-lg-8 -->
                 <div class="col-lg-5 ">
-                    <h1 class="font-weight-bolder">Justice4All</h1>
-                    <p>Justice4All seaks to grant access to legal aid for the <br> citizens who are poor and vulnerable, victims of police brutality and the unrepresented population in the society</p>
+                    <h2 class="font-weight-bolder">Liberty And Justice For All</h2>
+                    <p><span style="color:#ac2807; font-size: 22px;" class="font-weight:bolder;">Justice4All</span> seek to grant access to legal aid for the <br> citizens who are poor and vulnerable, victims of police brutality and the unrepresented population
+                        in the society.
+                        <br> We also Connect Individuals to volunteer workers(Lawyers and Counselors) and organisations who provide pro-bono, counselling and free legal services to the vulnerable</p>
                     <a class="btn btn-primary font-weight-bolder" href="#" style="background-color:#ac2807; border:1px solid #ac2807;">Read More</a>
                 </div>
             </div>
         </div>
     </main>
-    <!----services section starts here-->
-    <div class="mt-3 mb-3" id="services">
-        <h2 class="text-center font-weight-bolder" style="color: #04172A;">OUR SERVICES</h2>
+
+    <!----impact section starts here-->
+    <div class="mt-4 mb-4" id="impact">
+        <h2 class="text-center font-weight-bolder" style="color: #04172A;">OUR IMPACT</h2>
         <hr class="mb-2 mt-0  mx-auto text-center " style="width: 85px; height: 2px; background-color: #ac2807;">
     </div>
-    <main class="about container1 container-fluid " width="100% ">
-        <div class="row text-center ">
-            <P style="text-align:center; font-size: 20px; " class="pt-4 ">
-                <span style="color:#FB3F5C ">JusticeAll</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nulla voluptate dolorum, molestiae fuga distinctio possimus iusto sed veniam, et neque animi labore ipsa ratione esse nesciunt
-                corporis officiis odit, modi vero? Autem sint laboriosam reprehenderit enim, inventore pariatur saepe
-            </P>
-        </div>
-        <div class=" row text-center no-gutters mt-4 pb-4 ">
+    <main class=" container1 container-fluid pt-5 " width="100% ">
+        <div class=" row text-center no-gutters mt-2 pb-4 ">
             <div class="col-sm-4 my-2 my-sm-0 ">
                 <i class="fas fa-chalkboard-teacher fa-2x ctn1-h2 " style="color: #FB3F5C; "></i>
-                <h2 class="ctn1-h2 ">Counseling Service</h2>
-                <p class="ctn1-h2 ">Couseling services will be provided for victims of assaut</p>
+                <h2 class="ctn1-h2 ">CUT POWER OF INPUNITY</h2>
+                <p class="ctn1-h2 ">We plan to break the power of inpunity to help to revitalize corona law imquest systems to establish truth about killings</p>
             </div>
             <div class="col-sm-4 my-2 my-sm-0 ">
-                <i class="fas fa-project-diagram fa-2x ctn1-h2 " style="color: #FB3F5C; "></i>
-                <h2 class="ctn1-h2 ">Legal Representation</h2>
-                <p class="ctn1-h2 ">Couseling services will be provided for victims of assaut</p>
+                <i class="fas fa-hands-helping fa-2x" style="color: #FB3F5C; "></i>
+                <h2 class="ctn1-h2 ">SOURCE OF FINANCIAL AIMS</h2>
+                <p class="ctn1-h2 ">We aim to help individuals to get financial help through donations to support underserved persons in court cases</p>
             </div>
             <div class="col-sm-4 my-2 my-sm-0 ">
-                <i class="fas fa-user-graduate fa-2x ctn1-h2 " style="color: #FB3F5C; "></i>
-                <h2 class="ctn1-h2 ">Connecting Victims</h2>
-                <p class="ctn1-h2 ">Couseling services will be provided for victims of assaut</p>
+
+                <i class="fab fa-connectdevelop fa-2x" style="color: #FB3F5C; "></i>
+                <h2 class="ctn1-h2 ">CONNECTING VICTIMS</h2>
+                <p class="ctn1-h2 ">connecting victims to organizations who provide pro-bono services and available lawyers who provide free legal services.</p>
             </div>
         </div>
     </main>
-    <div class="mt-3 mb-3" id="about">
+
+    <div class="mt-4 mb-4" id="programs">
         <h2 class="text-center font-weight-bolder" style="color: #04172A;">OUR PROGRAMMES</h2>
         <hr class="mb-2 mt-0  mx-auto text-center " style="width: 85px; height: 2px; background-color: #ac2807;">
     </div>
@@ -196,7 +199,7 @@
     <article id="programmes ">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 mb-5">
+                <div class="col-md-4 mb-4">
                     <div class="card h-100">
                         <div class="card-body">
                             <h2 class="card-title text-center font-weight-bold" style="color:#ac2807;">Access to Justice Program</h2>
@@ -208,7 +211,7 @@
                     </div>
                 </div>
                 <!-- /.col-md-4 -->
-                <div class="col-md-4 mb-5">
+                <div class="col-md-4 mb-4">
                     <div class="card h-100">
                         <div class="card-body">
                             <h2 class="card-title text-center font-weight-bold" style="color:#ac2807;">Legal Awareness Program</h2>
@@ -220,7 +223,7 @@
                     </div>
                 </div>
                 <!-- /.col-md-4 -->
-                <div class="col-md-4 mb-5 ">
+                <div class="col-md-4 mb-4 ">
                     <div class="card h-100 ">
                         <div class="card-body ">
                             <h2 class="card-title text-center font-weight-bold " style="color:#ac2807; ">Human Right Defence Program</h2>
@@ -234,15 +237,44 @@
             </div>
         </div>
     </article>
-
-    <!-------contact section starts here -->
-    <div class="mt-3 ">
-        <h2 class="text-center font-weight-bolder " style="color: #04172A; ">CONTACT US</h2>
-        <hr class="mb-2 mt-0 mx-auto text-center " style="width: 85px; height: 2px; background-color: #ac2807; ">
+    <!----services section starts here-->
+    <div class=" mb-4" id="services">
+        <h2 class="text-center font-weight-bolder" style="color: #04172A;">OUR SERVICES</h2>
+        <hr class="mb-2 mt-0  mx-auto text-center " style="width: 85px; height: 2px; background-color: #ac2807;">
     </div>
-    <section id="contact ">
+    <main class="about container1 container-fluid " width="100% ">
+        <div class="row text-center ">
+            <P style="text-align:center; font-size: 20px; " class="pt-4 ">
+                <span style="color:#FB3F5C ">JusticeAll</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nulla voluptate dolorum, molestiae fuga distinctio possimus iusto sed veniam, et neque animi labore ipsa ratione esse nesciunt
+                corporis officiis odit, modi vero? Autem sint laboriosam reprehenderit enim, inventore pariatur saepe
+            </P>
+        </div>
+        <div class=" row text-center no-gutters mt-4 pb-4 ">
+            <div class="col-sm-4 my-2 my-sm-0 ">
+                <i class="fas fa-people-arrows fa-2x ctn1-h2 " style="color: #FB3F5C; "></i>
+                <h2 class="ctn1-h2 ">Counseling Services</h2>
+                <p class="ctn1-h2 ">Couseling services will be provided for victims of assaut</p>
+            </div>
+            <div class="col-sm-4 my-2 my-sm-0 ">
+                <i class="fas fa-balance-scale fa-2x ctn1-h2 " style="color: #FB3F5C; "></i>
+                <h2 class="ctn1-h2 ">Legal Representation</h2>
+                <p class="ctn1-h2 ">Couseling services will be provided for victims of assaut</p>
+            </div>
+            <div class="col-sm-4 my-2 my-sm-0 ">
+                <i class="fab fa-connectdevelop fa-2x" style="color: #FB3F5C; "></i>
+                <h2 class="ctn1-h2 ">Connecting Victims</h2>
+                <p class="ctn1-h2 ">Couseling services will be provided for victims of assaut</p>
+            </div>
+        </div>
+    </main>
+    <!-------contact section starts here -->
+    <div class="mt-4 mb-4 " id="contact">
+        <h2 class="text-center font-weight-bolder " style="color: #04172A; ">CONTACT US</h2>
+        <hr class="mt-0 mx-auto text-center " style="width: 85px; height: 2px; background-color: #ac2807; ">
+    </div>
+    <main id="contacts">
         <div class="container ">
-            <div class="row align-items-center my-5 ">
+            <div class="row align-items-center">
                 <div class="col-lg-7 ">
                     <h3 class="mb-2 " style="color:#ac2807; ">Reach Out to Us</h3>
                     <form class="needs-validation " novalidate>
@@ -288,57 +320,56 @@
                 </div>
             </div>
         </div>
-    </section>
+    </main>
 
     <!-------footer section starts here -->
-    <footer class="page-footer text-light pt-4 container-fluid " style="background-color: #04172A; ">
+    <footer class="page-footer text-light mt-3 pt-5 container-fluid " style="background-color: #04172A; ">
         <div class="container text-center ">
             <div class="row ">
                 <div class="col-md-3 mx-auto mb-4 ">
-                    <div class=" font-weight-bold font-size-50 " style="color: yellow; ">Justice4All</div>
-                    <p class="mt-2 text-white ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus est, urna egestas viverra pellentesque a aenean nisi gravida. Sed vel at sed leo volutpat elit. </p>
+                    <a href="#about">
+                        <div class=" footer-logo mb-3">Justice4All</div>
+                    </a>
+                    <p class="mt-2 text-white text-left">Connect Individuals to volunteer workers(Lawyers and Counselors) and organisations who provide pro-bono, counselling and free legal services to the vulnerable.</p>
                 </div>
 
                 <div class="col-md-2 mx-auto mb-2 ">
-                    <h6 class="text-uppercase font-weight-bold " style="color: yellow; ">SERVICES</h6>
+                    <h4 class="text-uppercase font-weight-bolder " style="color: yellow; ">SERVICES</h4>
                     <hr class="mb-2 mt-0 d-inline-block mx-auto " style="width: 85px; height: 2px; background-color: #ac2807; ">
                     <ul class="list-unstyled ">
                         <li class="my-2 text-white ">
-                            <a href="shop.html ">Couselling</a>
+                            <a href="#services">Legal Rep</a>
                         </li>
                         <li class="my-2 text-white ">
-                            <a href="shop.html ">Legal Rep</a>
+                            <a href="#services">Couselling</a>
                         </li>
                         <li class="my-2 text-white ">
-                            <a href="shop.html ">Access to Justices</a>
+                            <a href="#impact">Our Impact</a>
+                        </li>
+                        <li class="my-2 text-white ">
+                            <a href="#services">Access to Justices</a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="col-md-2 mx-auto mb-2 ">
-                    <h6 class="text-uppercase font-weight-bold " style="color: yellow; ">QUICK LINKS</h6>
+                    <h4 class="text-uppercase font-weight-bolder " style="color: yellow; ">QUICK LINKS</h4>
                     <hr class="mb-2 mt-0 d-inline-block mx-auto " style="width: 85px; height: 2px; background-color:#ac2807; ">
-
                     <ul class="list-unstyled ">
-                        <li class="my-2 text-white "><a href="index.html ">Home</a></li>
                         <li class="my-2 text-white "><a href="#about ">About-Us</a></li>
                         <li class="my-2 text-white "><a href="#program ">Programmes</a></li>
+                        <li class="my-2 text-white "><a href="#services">Services</a></li>
                         <li class="my-2 text-white "><a href="#contact ">Contact-Us</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-3 mx-auto mb-2 ">
-                    <h6 class="text-uppercase font-weight-bold " style="color: yellow; ">CONTACTS</h6>
+                    <h4 class="text-uppercase font-weight-bolder " style="color: yellow; ">CONTACTS</h4>
                     <hr class=" mb-2 mt-0 d-inline-block mx-auto " style="width: 85px; height: 2px; background-color:#ac2807; ">
                     <ul class="list-unstyled ">
                         <li class="my-2 ">
                             <a href=" ">
-                                </i> <i class="fas fa-home mr-2 text-white "></i style="color: yellow; ">Gesse Phase1 B/K, Kebbi State.
-                            </a>
-                        </li>
-                        <li class="my-2 ">
-                            <a href=" ">
-                                <i class="fas fa-envelope mr-2 text-white "></i> <i style="color: yellow; ">belrahj3@gmail.com</i>
+                                <i class="fas fa-tty mr-2 text-white "></i> <i style="color: yellow; "> +01 543 214 098</i>
                             </a>
                         </li>
                         <li class="my-2 ">
@@ -348,8 +379,12 @@
                         </li>
                         <li class="my-2 ">
                             <a href=" ">
-
-                                <i class="fas fa-tty mr-2 text-white "></i> <i style="color: yellow; "> +01 543 214 098</i>
+                                <i class="fas fa-envelope mr-2 text-white "></i> <i style="color: yellow; ">belrahj3@gmail.com</i>
+                            </a>
+                        </li>
+                        <li class="my-2 ">
+                            <a href=" ">
+                                </i> <i class="fas fa-home mr-2 text-white "></i style="color: yellow; ">Gesse Phase1 B/K, Kebbi State.
                             </a>
                         </li>
                     </ul>
@@ -360,19 +395,19 @@
         <div class="footer-copyright text-center py-3 ">
             <div>
                 <i class="fab fa-linkedin-in fa-2x pr-2 " style="color: white "> </i>
-                <i class="fab fa-github fa-2x pr-2 " style="color: white "> </i>
-                <i class=" fab fa-twitter fa-2x pr-2 " style="color: white "> </i>
-                <i class="fab fa-facebook-f fa-2x pr-2 " style="color: white "> </i>
-            </div>
-            <div class="row d-flex justify-content-center ">
-                <div id="copyright " class="text-center text-white ">
-                    <p class="mb-0 " style=" color: yellow; font-size: larger; ">Created By KALU MERCY</p>
-                    <small class="font-weight-bolder ">
+                                <i class="fab fa-github fa-2x pr-2 " style="color: white "> </i>
+                                <i class=" fab fa-twitter fa-2x pr-2 " style="color: white "> </i>
+                                <i class="fab fa-facebook-f fa-2x pr-2 " style="color: white "> </i>
+                </div>
+                <div class="row d-flex justify-content-center ">
+                    <div id="copyright " class="text-center text-white ">
+                        <p class="mb-0 " style=" color: yellow; font-size: larger; ">Created By KALU MERCY</p>
+                        <small class="font-weight-bolder ">
                     Copyright © JUSTICE4ALL || All Rights Reserved.
                 </small>
+                    </div>
                 </div>
             </div>
-        </div>
     </footer>
 
 

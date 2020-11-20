@@ -25,8 +25,45 @@ section {
     color: #ffff00;
 }
 
+#mainNav {
+    background-color: #ac2807;
+    font-size: 28px;
+}
+
+.program {
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+#dropdownMenuLink {
+    background-color: #ac2807;
+    border: 2px solid #ac2807;
+}
+
+.logo {
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.fab {
+    color: #04172A;
+}
+
 
 /*-----------------------------------------about section here--------------------------------------*/
+
+#btn-hover:hover {
+    background-color: #ac2807;
+    border: 2px solid #ac2807;
+    color: white;
+}
+
+#btn-hover {
+    border: 2px solid #ac2807;
+    color: #ac2807;
+}
 
 
 /*-----------------------------------------header section here--------------------------------------*/
@@ -47,6 +84,11 @@ marquee {
 
 
 /*-----------------------------------------program section here--------------------------------------*/
+
+.blog {
+    margin-top: 22%;
+    text-align: center;
+}
 
 
 /*-----------------------------------------services section here--------------------------------------*/
@@ -76,6 +118,14 @@ marquee {
 #footer ul {
     list-style-type: none;
     padding: 0 48px 0 0;
+}
+
+.footer-logo {
+    font-weight: bold;
+    color: #ac2807;
+    /* color: yellow; */
+    font-size: 30px;
+    font-family: 'Lobster Two', cursive;
 }
 
 
